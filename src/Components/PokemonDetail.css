@@ -1,0 +1,64 @@
+.pokemon-detail {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .pokemon-image {
+    max-width: 250px; 
+    margin-bottom: 20px; 
+  }
+  
+  .pokemon-info p {
+    margin: 10px 0; 
+    font-size: 18px; 
+  }
+  
+  .evolution-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .evolution-info {
+    margin: 20px; 
+    text-align: center;
+  }
+  
+  .evolution-info img {
+    max-width: 120px; 
+  }
+  
+  button {
+    background-color: #ff5722; 
+    color: #fff;
+    padding: 12px 24px; 
+    border: none;
+    border-radius: 8px; 
+    margin-top: 20px;
+    font-size: 18px; 
+  }
+  
+  button:hover {
+    background-color: #ff7043; 
+  }
+
+  .back-button {
+    background-color: blue;
+    color: white;;
+  }
+
+  .back-button-container {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  
+  
