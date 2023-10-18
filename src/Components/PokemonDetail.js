@@ -17,7 +17,7 @@ const PokemonDetail = () => {
 
   useEffect(() => {
     // Recupere os detalhes do Pokémon com base no ID da rota
-    fetch('/data/Pokedex151.json', {
+    fetch('https://matheusfreire7.github.io/Pokedex_Pokemon/data/Pokedex151.json', {
       headers: {
         Accept: 'application/json',
       },

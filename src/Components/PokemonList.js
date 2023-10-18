@@ -11,7 +11,7 @@ const PokemonList = () => {
   const [sortByHeight, setSortByHeight] = useState(null); 
 
   useEffect(() => {
-    fetch('/data/Pokedex151.json', {
+    fetch('https://matheusfreire7.github.io/Pokedex_Pokemon/data/Pokedex151.json', {
       headers: {
         Accept: 'application/json',
       },
@@ -112,7 +112,7 @@ const PokemonList = () => {
 
       <div className="pokemon-grid">
         {filteredPokemon.map((pokemon) => (
-          <Link key={pokemon.id} to={`/pokemon/${pokemon.id}`} className="pokemon-card">
+          <Link key={pokemon.id} to={`/Pokedex_Pokemon/${pokemon.id}`} className="pokemon-card">
             <img src={pokemon.img} alt={pokemon.name} />
             <p>{pokemon.name}</p>
             <p>Tipo: {pokemon.type.join(', ')}</p>
