@@ -37,7 +37,7 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ## GitHub Pages
 
-Você pode acessar o projeto One Piece - Semana do Zero ao Programador Contratado no GitHub Pages:
+Você pode acessar o projeto Pokedex Original com React no GitHub Pages:
 
 - [Acesse o Projeto Aqui](https://MatheusFreire7.github.io/Pokedex_Pokemon/)
   
